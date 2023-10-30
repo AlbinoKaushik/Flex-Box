@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .flexcontainer1 , .flexcontainer2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: min-content;
+           
+        }
+        .flexitem{
+            width: 28%;
+            margin: 15px;
+            padding: 15px;
+            border: 5px solid black;
+            /* overflow: hidden; */
+            flex: 1;
+            
+        }
+        input{
+            width: 100%;
+            padding: 15px;
+            border: 0px;
+            border-radius: 10px;
+            font-size: larger;
+            
+        }
+        input:hover{
+            color: white;
+            background-color: orangered;
+        }
+        input:visited{
+            color: wheat;
+            background-color: brown;
+        }
+        p{
+            text-align:justify;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            text-align: center;
+            text-decoration:solid;
+            font-size: 50px;   
+        }
+       
+    </style>
+</head>
+<body><div><h1>Flex Box</h1></div>
+    <div class="flexcontainer1">
+    <div class="flexitem"><img src="https://th.bing.com/th/id/OIP.HebDcSWiqEh4NAlSln6yFQHaET?pid=ImgDet&rs=1" alt="garden" width="100%"><h2>Seamless Display</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque velit, tenetur placeat libero dignissimos quia quis veniam tempora aliquam dicta!</p><input type="button" value="Know More"></div>
+    <div class="flexitem"><img src="https://media.timeout.com/images/105649192/image.jpg" alt="garden" width="100%"><h2>Signify the Branch</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore ipsa voluptatum laudantium non debitis!</p><input type="button" value="Know More"></div>
+    <div class="flexitem"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/beautiful-stonegarden-with-waterfalls-royalty-free-image-1589921597.jpg" alt="garden" width="100%"><h2>Intensity of sound</h2><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam labore minima laudantium, amet quod nemo, distinctio dolorem, fuga eos fugit optio obcaecati.</p><input type="button" value="Know More"></div>
+    </div>
+    <div class="flexcontainer2">
+    <div class="flexitem"><img src="https://th.bing.com/th/id/OIP.5fG_jJLDZIy9h_GOjBMilAHaEm?pid=ImgDet&rs=1" alt="journey" width="100%"><h2>Journey To West</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non eius beatae alias sed, porro adipisci distinctio. Ex deleniti eaque veniam nemo, rerum architecto nostrum molestiae iste dolore adipisci saepe hic maxime blanditiis quisquam, qui consequuntur error facilis neque, soluta nobis corrupti perferendis? Aspernatur ad temporibus in eligendi neque velit.</p><input type="button" value="Know More"></div>
+    <div class="flexitem"><img src="https://thetransformation.company/wp-content/uploads/2018/03/Whats-the-Big-Idea-610x732.jpg" alt="Idea" width="100%"><h2>Some Other Way</h2><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dicta vel illo libero deserunt veniam, magnam blanditiis velit ea quis!</p><input type="button" value="Know More"></div>
+    <div class="flexitem"><img src="https://i5.walmartimages.com/asr/de6c4f20-f353-40be-ba81-94944f8676bc_1.0f71d9d6de6c5c8e3801db340af7ab8b.jpeg" alt="desktop" width="100%"><h2>Just Work</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero repellendus eum commodi dolorum. Error, amet beatae sunt laudantium sit explicabo suscipit quis ipsam voluptatum saepe.</p><input type="button" value="Know More"></div>
+    </div>
+    
+</body>
+</html>
